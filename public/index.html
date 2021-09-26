@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-</head>
-<body>
-    <h1>index.html served by Node.js + Express</h1>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News API Example</title>
+  </head>
+  <body>
+    <h2 id="source">News</h2>
+    <div id="stories">
+    </div>
+    <p>
+      Powered by <a href="https://newsapi.org/">https://newsapi.org/</a>
+    </p>
+    <div id="articles"></div>
     <link rel="stylesheet" href="./css/style.css">
-
-    <!-- https://www.w3schools.com/tags/att_script_defer.asp -->
-    <script src="./js/script.js" async></script>
-</body>
+    <script src="./src/index.js" async></script>
+  </body>
 </html>
